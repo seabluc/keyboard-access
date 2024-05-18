@@ -18,6 +18,7 @@ export const Navbar = () => {
             <div tabIndex={-1} className="ml-4 flex items-center space-x-4">
             <Link href="/" className="text-white focus-within:bg-slate-700 rounded-lg p-2">Home</Link>
             <Link href="/things-to-read" className="text-white focus-within:bg-slate-700 rounded-lg p-2">Things to Read</Link>
+            <Link href="/attention" className="text-white focus-within:bg-slate-700 rounded-lg p-2">Attention</Link>
             </div>
           </div>
         </div>
