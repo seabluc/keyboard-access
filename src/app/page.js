@@ -20,16 +20,21 @@ export default function Home() {
   };
 
   return (
-    <main className= "flex items-center justify-center min-h-screen py-6">
-      <h1 className="text-3xl font-bold text-center mb-4">Hello World; Welcome to my CSS480 landing page!</h1>
-      <h2 className="text-center text-xl underline py-1">My name is Sean-Luc Ghim, and I am a 4th year CSSE student at UWB.</h2>
-      <img className="text-center" src="./sealy.gif" alt="uh oh" />
-      <ul className="text-center list-inside">List of intriguing things:
+    <main className="flex-col items-center justify-center min-h-screen py-6">
+      <h1 className="flex justify-center text-3xl font-bold mb-4">Hello World; Welcome to my CSS480 landing page!</h1>
+      <h2 className="flex justify-center text-xl underline py-1">My name is Sean-Luc Ghim and I am a 4th year CSSE student at UWB</h2>
+      <div className="flex justify-center py-6">
+        <img className="" src="./sealy.gif" alt="uh oh" />
+      </div>
+      <ul className="text-center list-inside p-1">
+        <p className="underline text-lg">List of intriguing things:</p>
         {listItems.map((item, index) => (
-          <li className="" key={index}>{item}</li>
+          <li className="py-1" key={index}>{item}</li>
         ))}
       </ul>
-      <button className="justify-center" onClick={reorder}>Shuffle list!</button>
+      <div className="flex justify-center">
+        <button className="m-5 border-2 p-2 border-black bg-black text-white rounded-xl hover:bg-slate-700 focus-within:bg-slate-700" onClick={reorder}>Shuffle list!</button>
+      </div>
     </main>
   );
 }

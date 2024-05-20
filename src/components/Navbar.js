@@ -2,7 +2,7 @@
  * Use <Link> component for Next.js's client side routing instead of <a>
  * element to enhance UX for single-page apps.
 */
-import Link from "next/link";
+import Link from 'next/link';
 
 export const Navbar = () => {
   return (
@@ -16,9 +16,9 @@ export const Navbar = () => {
           </div>
           <div tabIndex={-1} className="hidden md:block">
             <div tabIndex={-1} className="ml-4 flex items-center space-x-4">
-            <Link href="/" className="text-white focus-within:bg-slate-700 rounded-lg p-2">Home</Link>
-            <Link href="/things-to-read" className="text-white focus-within:bg-slate-700 rounded-lg p-2">Things to Read</Link>
-            <Link href="/attention" className="text-white focus-within:bg-slate-700 rounded-lg p-2">Attention</Link>
+              <Link href="/" className="text-white hover:bg-slate-700 focus-within:bg-slate-700 rounded-lg p-2">Home</Link>
+              <Link href="/things-to-read" className="text-white hover:bg-slate-700 focus-within:bg-slate-700 rounded-lg p-2">Things to Read</Link>
+              <Link href="/attention" className="text-white hover:bg-slate-700 focus-within:bg-slate-700 rounded-lg p-2">Attention</Link>
             </div>
           </div>
         </div>

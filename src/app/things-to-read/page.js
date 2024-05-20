@@ -1,15 +1,17 @@
+// ============================POC: Keyboard Access============================
 export default function ThingsToRead() {
   return (
-
-        <main className="flex-col items-center justify-center min-h-screen py-6">
-          <h1 className="text-3xl font-bold text-center mb-4">POC Keyboard Access:</h1>
-          <div className="text-center text-xl underline py-1">Traverse the navigation bar with the following keyboard inputs:</div>
+    <div className="flex-col items-center justify-center min-h-screen py-6">
+      <div>
+        <h1 className="text-3xl font-bold text-center mb-4">POC Keyboard Access:</h1>
+        <div className="text-center text-xl underline py-1">Traverse the navigation bar with the following keyboard inputs:</div>
           <ul className="text-center list-inside">
             <li>[Tab] - navigate interactive elements</li>
             <li>[Shift + Tab] - navigate backwards</li>
             <li>[Enter] - activate links or buttons</li>
         </ul>
-      <h1 className=" text-3xl font-bold text-center mb-4">POC Keyboard Access:</h1>
+      </div>
+      <h1 className=" text-3xl font-bold text-center  my-4">POC Keyboard Access:</h1>
       <div className="text-center text-xl underline py-1">10 interesting webpages that fuels my brainrot</div>
       <ol className="text-center list-inside">
         <li className="text-lg my-2">
@@ -43,6 +45,6 @@ export default function ThingsToRead() {
           <a href="https://udemy.com" target="_blank" rel="noopener noreferrer" className="focus-within:bg-slate-600 rounded-lg p-2">Udemy</a>
         </li>
       </ol> 
-    </main>
+    </div>
   );
 }
