@@ -9,7 +9,7 @@ export default function Attention() {
             <img src="./belle-pls.gif" alt="silly dog" className=" w-56 h-56"/>
             <article className="absolute top-14 left-60 m-2 p-2 border-2 w-auto max-h-56 font-sans text-xl text-white overflow-auto">
               <p className="">
-                Belle O&apos;Neill is rescue, and a Doberman/cattle dog/hound mix who has a unique  
+                Belle O&apos;Neill is a rescue, and a Doberman/cattle dog/hound mix who has a unique 
                 birth defect that stretches back the muscles on her head. Due to her condition, she 
                 permanently looks shocked/surprised &#40;thankfully it&apos;s harmless&#41;. Belle is 
                 very popular as her 
