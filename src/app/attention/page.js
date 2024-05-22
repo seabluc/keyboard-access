@@ -6,7 +6,7 @@ export default function Attention() {
         <h1 className="text-5xl font-sans font-semibold pt-5 pl-10 pb-3">The goodest of doggos 🐕</h1>
         <div className="relative border-4 border-double p-4 m-4 bg-slate-900 hover:bg-slate-800 w-1/2 h-auto">
             <h1 className="text-3xl font-sans font-semibold pl-10 pb-2">Bellebows</h1>
-            <img src="./belle-pls.gif" alt="perfection" className=" w-56 h-56"/>
+            <img src="./belle-pls.gif" alt="silly dog" className=" w-56 h-56"/>
             <article className="absolute top-14 left-60 m-2 p-2 border-2 w-auto max-h-56 font-sans text-xl text-white overflow-auto">
               <p className="">
                 Belle O&apos;Neill is rescue, and a Doberman/cattle dog/hound mix who has a unique  
@@ -23,7 +23,21 @@ export default function Attention() {
         </div>
         
         <div className="relative border-4 border-double p-4 m-4 bg-slate-900 hover:bg-slate-800 w-1/2 h-auto">
-          <h1 className="text-3xl font-sans font-semibold pl-10 pb-2">Capybaras</h1>
+          <h1 className="text-3xl font-sans font-semibold pl-10 pb-2">Mayor Max</h1>
+            <img src="./mayor-max.png" alt="mayor dog" className="w-56 h-56"/>
+            <article className="absolute top-14 left-60 m-2 p-2 border-2 w-auto max-h-56 font-sans text-xl text-white overflow-auto">
+          <p className="">
+            On June 11, 2012, Max &#40;Maximus Mighty-Dog Mueller&#41; was voted into office during an 
+            election held in Idyllwild, California. Max won a full ⅔ of the votes, and became Idyllwild's first mayor. 
+            Unfortunately, Mayor Max I passed away after just nine months in office.
+            Max's cousin takes on the mantle by becoming Mayor Max II and serves for nine years until his passing
+            &#40;July 30, 2022&#41;. Several months later, Mayor Max III is born and serves as Idyllwild's mayor to this day.
+          </p>
+        </article>
+        </div>
+
+        <div className="relative border-4 border-double p-4 m-4 bg-slate-900 hover:bg-slate-800 w-1/2 h-auto">
+          <h1 className="text-3xl font-sans font-semibold pl-10 pb-2">Capybara</h1>
             <img src="./capybara.png" alt="coconut dog" className="w-56 h-56"/>
             <article className="absolute top-14 left-60 m-2 p-2 border-2 w-auto max-h-56 font-sans text-xl text-white overflow-auto">
           <p className="">
@@ -35,21 +49,7 @@ export default function Attention() {
           </p>
         </article>
         </div>
-
-        <div className="relative border-4 border-double p-4 m-4 bg-slate-900 hover:bg-slate-800 w-1/2 h-full">
-          <h1 className="text-3xl font-sans font-semibold pl-10 pb-2">capybara</h1>
-            <img src="./capybara.png" alt="coconut dog" className="w-56 h-56"/>
-            <article className="absolute top-14 left-60 m-2 p-2 border-2 w-auto max-h-56 font-sans text-xl text-white overflow-auto">
-          <p className="">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </article>
-        </div>
-        
+        <footer>hi</footer>
       </div>
     </>
   )
