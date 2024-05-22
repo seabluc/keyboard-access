@@ -1,8 +1,8 @@
 // ============================POC: Keyboard Access============================
 export default function ThingsToRead() {
   return (
-    <div className="flex-col items-start py-6">
-      <div className="flex-shrink-1 border-dashed border-4 ml-7 p-4">
+    <div className="flex-col justify-center items-center py-6">
+      <div className="flex-shrink-1 border-dashed border-4 ml-7 p-4 bg-slate-900">
         <h1 className="text-3xl font-bold text-center mb-1">POC Keyboard Access:</h1>
         <div className="text-center text-xl underline py-1">Traverse the navigation bar with the following keyboard inputs:</div>
           <ul className="text-center list-inside">
