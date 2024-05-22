@@ -28,10 +28,10 @@ export default function Attention() {
             <article className="absolute top-14 left-60 m-2 p-2 border-2 w-auto max-h-56 font-sans text-xl text-white overflow-auto">
           <p className="">
             On June 11, 2012, Max &#40;Maximus Mighty-Dog Mueller&#41; was voted into office during an 
-            election held in Idyllwild, California. Max won a full ⅔ of the votes, and became Idyllwild's first mayor. 
+            election held in Idyllwild, California. Max won a full ⅔ of the votes, and became Idyllwild&apos;s first mayor. 
             Unfortunately, Mayor Max I passed away after just nine months in office.
-            Max's cousin takes on the mantle by becoming Mayor Max II and serves for nine years until his passing
-            &#40;July 30, 2022&#41;. Several months later, Mayor Max III is born and serves as Idyllwild's mayor to this day.
+            Max&apos;s cousin takes on the mantle by becoming Mayor Max II and serves for nine years until his passing
+            &#40;July 30, 2022&#41;. Several months later, Mayor Max III is born and serves as Idyllwild&apos;s mayor to this day.
           </p>
         </article>
         </div>
