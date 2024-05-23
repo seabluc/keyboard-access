@@ -19,7 +19,7 @@ Requirements:
 
 ## 3. Color and Styling
 Requirements:
-  Add meaningful colors to your website via CSS. Assess the color contrast and color combinations to ensure they work well for people with color deficiencies (e.g., color blindness). 
+  1. Add meaningful colors to your website via CSS. Assess the color contrast and color combinations to ensure they work well for people with color deficiencies (e.g., color blindness). 
 
 ## 4. Guiding Attention
 Requirements:
