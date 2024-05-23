@@ -1,7 +1,4 @@
-/* 
- * Use <Link> component for Next.js's client side routing instead of <a>
- * element to enhance UX for single-page apps.
-*/
+// ============================POC: Keyboard Access============================
 import Link from 'next/link';
 
 export const Navbar = () => {

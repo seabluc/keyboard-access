@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Keyboard Access"
+  title: "Proof-of-concept App"
 };
 
 export default function RootLayout({ children }) {
