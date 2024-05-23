@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Proof-of-concept App:
 
 Implemented a basic website to practice creating UIs and applying HCI concepts.
