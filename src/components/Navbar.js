@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 export const Navbar = () => {
   return (
-    <nav  className="bg-black">
+    <nav className="bg-black">
       <div className="max-w-9xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-12"> {/* Right side of Navbar */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <Link href="/" className="text-white focus-within:bg-slate-700 rounded-lg p-2" >CSS 480</Link>  
+              <Link href="/" className="text-white focus-within:bg-slate-700 rounded-lg p-2" >CSS 480</Link>
             </div>
           </div>
           <div className="hidden md:block">

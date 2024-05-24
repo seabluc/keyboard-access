@@ -1,7 +1,7 @@
 // ===========================POC: Guiding Attention===========================
 export default function Attention() {
   return (
-    <div className="flex flex-col w-full h-screen overflow-y-auto overflow-x-hidden">
+    <div className="flex flex-col w-full h-full">
       <h1 className="text-5xl font-sans font-semibold pt-5 pl-10 pb-3">The goodest of doggos 🐕</h1>
       <div className="relative border-4 border-double p-4 m-4 bg-slate-900 hover:bg-slate-800 w-1/2 h-auto">
         <h1 className="text-3xl font-sans font-semibold pl-10 pb-2">Bellebows</h1>
